@@ -4,7 +4,7 @@ body {
 
 .Landing-page {
   color: white;
-  background-image: url(./assets/img/restaurant.png);
+  background-image: url("/public/restaurant.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
