@@ -1,60 +1,72 @@
-import { createSlice } from "@reduxjs/toolkit";
+import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+
+const initialState = {
+  menu: [],
+  cart: [],
+};
 
 const slice = createSlice({
   name: "restaurant,",
-  initialState: [],
+  initialState,
   reducers: {
-    updateCart: (state, action) => {
-      return action.payload.items;
+    fillMenu(state, action) {
+      state.menu = action.payload;
     },
 
-    addToCart: (state, action) => {
-      return state.map((item) => {
-        if (item.id === action.payload.id) {
-          return {
-            ...item,
-            added: true,
-          };
-        }
-        return item;
-      });
+    updateMenu(state, action) {
+      const item = state.menu.find((item) => item.id === action.payload);
+      item.addedToCart = true;
+      item.totalPrice = item.price;
+      state.cart.push(item);
     },
 
-    handleQuantityUpdate: (state, action) => {
-      return state.map((item) => {
-        if (item.id === action.payload.id) {
-          if (item.quantity + action.payload.value <= 0) {
-            return { ...item, added: false, quantity: 0 };
-          }
-          return {
-            ...item,
-            quantity: item.quantity + action.payload.value,
-            cost: item.quantity * item.cost,
-          };
-        }
-        return item;
-      });
-    },
+    increaseItemQuantity(state, action) {
+      const item = state.cart.find((item) => item.id === action.payload);
+      item.quantity++;
+      item.totalPrice = item.quantity * item.price;
+      const menuItem = state.menu.find((item) => item.id === action.payload);
 
-    removeItem: (state, action) => {
-      return state.map((item) => {
-        if (item.id === action.payload) {
-          return {
-            ...item,
-            added: false,
-          };
-        }
-        return item;
-      });
+      menuItem.quantity++;
+    },
+    decreaseItemQuantity(state, action) {
+      const item = state.cart.find((item) => item.id === action.payload);
+      if (item.quantity <= 1) slice.caseReducers.deleteItem(state, action);
+      else {
+        item.quantity--;
+        item.totalPrice = item.quantity * item.price;
+      }
+
+      const menuItem = state.menu.find((item) => item.id === action.payload);
+      if (menuItem.quantity === 1) slice.caseReducers.deleteItem(state, action);
+      else {
+        menuItem.quantity--;
+      }
+    },
+    deleteItem(state, action) {
+      const item = state.menu.find((item) => item.id === action.payload);
+      item.addedToCart = false;
+      item.quantity = 1;
+
+      state.cart = state.cart.filter((item) => item.id !== action.payload);
     },
   },
 });
 
+export const fetchMenu = createAsyncThunk(
+  "restaurant/fetchMenu",
+  async (_, { dispatch }) => {
+    const res = await fetch("http://localhost:8000/menuList");
+    const data = await res.json();
+    dispatch(fillMenu(data));
+  }
+);
+
 export const {
-  addToCart,
-  handleQuantityUpdate,
-  updateCart,
-  removeItem,
+  fillMenu,
+  updateMenu,
+  increaseItemQuantity,
+  decreaseItemQuantity,
+  deleteItem,
 } = slice.actions;
 
 export default slice.reducer;

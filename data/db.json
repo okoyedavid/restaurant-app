@@ -6,6 +6,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "4.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/1.jpg"
     },
     {
@@ -14,6 +15,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "5.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/2.jpg"
     },
     {
@@ -22,6 +24,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "6.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/3.jpg"
     },
     {
@@ -30,6 +33,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "7.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/4.jpg"
     },
     {
@@ -38,6 +42,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "6.29",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/5.jpg"
     },
     {
@@ -46,6 +51,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "4.79",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/6.jpg"
     },
     {
@@ -54,6 +60,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "5.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/7.jpg"
     },
     {
@@ -62,6 +69,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "7.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/8.jpg"
     },
     {
@@ -70,6 +78,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "6.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/9.jpg"
     },
     {
@@ -78,6 +87,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "8.29",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/10.jpg"
     },
     {
@@ -86,6 +96,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "5.79",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/11.jpg"
     },
     {
@@ -94,6 +105,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "6.89",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/12.jpg"
     },
     {
@@ -102,6 +114,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "9.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/13.jpg"
     },
     {
@@ -110,6 +123,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "7.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/14.jpg"
     },
     {
@@ -118,6 +132,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "8.29",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/15.jpg"
     },
     {
@@ -126,6 +141,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "7.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/16.jpg"
     },
     {
@@ -134,6 +150,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "6.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/17.jpg"
     },
     {
@@ -142,6 +159,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "5.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/18.jpg"
     },
     {
@@ -150,6 +168,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "6.79",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/19.jpg"
     },
     {
@@ -158,6 +177,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "7.29",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/20.jpg"
     },
     {
@@ -166,6 +186,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "8.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/21.jpg"
     },
     {
@@ -174,6 +195,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "7.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/22.jpg"
     },
     {
@@ -182,6 +204,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "6.59",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/23.jpg"
     },
     {
@@ -190,6 +213,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "7.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/24.jpg"
     },
     {
@@ -198,6 +222,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "8.79",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/25.jpg"
     },
     {
@@ -206,6 +231,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "9.29",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/26.jpg"
     },
     {
@@ -214,6 +240,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "8.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/27.jpg"
     },
     {
@@ -222,6 +249,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "10.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/28.jpg"
     },
     {
@@ -230,6 +258,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "12.79",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/29.jpg"
     },
     {
@@ -238,6 +267,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "7.59",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/30.jpg"
     },
     {
@@ -246,6 +276,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "9.89",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/31.jpg"
     },
     {
@@ -254,6 +285,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "11.19",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/32.jpg"
     },
     {
@@ -262,6 +294,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "5.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/33.jpg"
     },
     {
@@ -270,6 +303,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "14.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/34.jpg"
     },
     {
@@ -278,6 +312,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "8.69",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/35.jpg"
     },
     {
@@ -286,6 +321,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "6.79",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/36.jpg"
     },
     {
@@ -294,6 +330,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "13.29",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/37.jpg"
     },
     {
@@ -302,6 +339,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "11.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/38.jpg"
     },
     {
@@ -310,6 +348,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "10.19",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/39.jpg"
     },
     {
@@ -318,6 +357,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "12.59",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/40.jpg"
     },
     {
@@ -326,6 +366,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "13.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/41.jpg"
     },
     {
@@ -334,6 +375,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "11.79",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/42.jpg"
     },
     {
@@ -342,6 +384,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "9.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/43.jpg"
     },
     {
@@ -350,6 +393,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "12.19",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/44.jpg"
     },
     {
@@ -358,6 +402,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "13.89",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/45.jpg"
     },
     {
@@ -366,6 +411,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "7.89",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/46.jpg"
     },
     {
@@ -374,6 +420,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "11.39",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/47.jpg"
     },
     {
@@ -382,6 +429,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "10.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/48.jpg"
     },
     {
@@ -390,6 +438,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "12.79",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/49.jpg"
     },
     {
@@ -398,6 +447,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "8.79",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/50.jpg"
     },
     {
@@ -406,6 +456,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "9.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/51.jpg"
     },
     {
@@ -414,6 +465,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "11.29",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/52.jpg"
     },
     {
@@ -422,6 +474,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "12.19",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/53.jpg"
     },
     {
@@ -430,6 +483,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "10.29",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/54.jpg"
     },
     {
@@ -438,6 +492,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "11.39",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/55.jpg"
     },
 
@@ -447,6 +502,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "12.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/56.jpg"
     },
     {
@@ -455,6 +511,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "11.69",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/57.jpg"
     },
     {
@@ -463,6 +520,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "10.39",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/58.jpg"
     },
     {
@@ -471,6 +529,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "7.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/59.jpg"
     },
     {
@@ -479,6 +538,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "11.29",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/60.jpg"
     },
     {
@@ -487,6 +547,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "13.59",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/61.jpg"
     },
     {
@@ -495,6 +556,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "10.89",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/62.jpg"
     },
     {
@@ -503,6 +565,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "12.39",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/63.jpg"
     },
     {
@@ -511,6 +574,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "9.79",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/64.jpg"
     },
     {
@@ -519,6 +583,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "10.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/65.jpg"
     },
     {
@@ -527,6 +592,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "11.19",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/66.jpg"
     },
     {
@@ -535,6 +601,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "8.59",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/67.jpg"
     },
     {
@@ -543,6 +610,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "12.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/68.jpg"
     },
     {
@@ -551,6 +619,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "11.59",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/69.jpg"
     },
     {
@@ -559,6 +628,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "10.89",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/70.jpg"
     },
     {
@@ -567,6 +637,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "12.19",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/71.jpg"
     },
     {
@@ -575,6 +646,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "11.29",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/72.jpg"
     },
     {
@@ -583,6 +655,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "13.29",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/73.jpg"
     },
     {
@@ -591,6 +664,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "14.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/75.jpg"
     },
     {
@@ -599,6 +673,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "11.29",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/76.jpg"
     },
     {
@@ -607,6 +682,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "12.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/77.jpg"
     },
     {
@@ -615,6 +691,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "13.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/78.jpg"
     },
     {
@@ -623,6 +700,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "11.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/79.jpg"
     },
     {
@@ -631,6 +709,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "12.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/80.jpg"
     },
     {
@@ -639,6 +718,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "7.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/81.jpg"
     },
     {
@@ -647,6 +727,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "8.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/82.jpg"
     },
     {
@@ -655,6 +736,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "13.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/83.jpg"
     },
     {
@@ -663,6 +745,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "10.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/84.jpg"
     },
     {
@@ -671,6 +754,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "12.79",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/85.jpg"
     },
     {
@@ -679,6 +763,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "9.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/86.jpg"
     },
     {
@@ -687,6 +772,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "14.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/87.jpg"
     },
     {
@@ -695,6 +781,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "6.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/88.jpg"
     },
     {
@@ -703,6 +790,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "7.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/89.jpg"
     },
     {
@@ -711,6 +799,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "11.29",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/90.jpg"
     },
     {
@@ -719,6 +808,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "12.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/91.jpg"
     },
     {
@@ -727,6 +817,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "8.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/92.jpg"
     },
     {
@@ -735,6 +826,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "13.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/93.jpg"
     },
     {
@@ -743,6 +835,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "15.29",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/94.jpg"
     },
     {
@@ -751,6 +844,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "14.79",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/95.jpg"
     },
     {
@@ -759,6 +853,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "13.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/96.jpg"
     },
     {
@@ -767,6 +862,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "10.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/97.jpg"
     },
     {
@@ -775,6 +871,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "8.79",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/98.jpg"
     },
     {
@@ -783,6 +880,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "9.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/99.jpg"
     },
     {
@@ -791,6 +889,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "7.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/100.jpg"
     },
     {
@@ -799,6 +898,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "12.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/101.jpg"
     },
     {
@@ -807,6 +907,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "14.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/102.jpg"
     },
     {
@@ -815,6 +916,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "15.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/103.jpg"
     },
     {
@@ -823,6 +925,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "11.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/104.jpg"
     },
     {
@@ -831,6 +934,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "10.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/105.jpg"
     },
     {
@@ -839,6 +943,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "14.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/106.jpg"
     },
     {
@@ -847,6 +952,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "8.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/107.jpg"
     },
     {
@@ -855,6 +961,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "13.79",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/108.jpg"
     },
     {
@@ -863,6 +970,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "12.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/109.jpg"
     },
     {
@@ -871,6 +979,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "6.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/110.jpg"
     },
     {
@@ -879,6 +988,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "11.29",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/111.jpg"
     },
     {
@@ -887,6 +997,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "13.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/112.jpg"
     },
     {
@@ -895,6 +1006,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "10.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/113.jpg"
     },
     {
@@ -903,6 +1015,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "12.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/114.jpg"
     },
     {
@@ -911,6 +1024,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "14.29",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/115.jpg"
     },
     {
@@ -919,6 +1033,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "12.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/116.jpg"
     },
     {
@@ -927,6 +1042,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "8.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/117.jpg"
     },
     {
@@ -935,6 +1051,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "11.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/118.jpg"
     },
     {
@@ -943,6 +1060,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "9.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/119.jpg"
     },
     {
@@ -951,6 +1069,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "12.79",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/120.jpg"
     },
     {
@@ -959,6 +1078,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "4.99",
+      "totalPrice": 0,
       "image": "htps://apipics.s3.amazonaws.com/mexican_api/121.jpg"
     },
     {
@@ -967,6 +1087,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "10.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/122.jpg"
     },
     {
@@ -975,6 +1096,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "8.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/123.jpg"
     },
     {
@@ -983,6 +1105,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "15.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/124.jpg"
     },
     {
@@ -991,6 +1114,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "13.29",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/125.jpg"
     },
     {
@@ -999,6 +1123,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "12.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/126.jpg"
     },
     {
@@ -1007,6 +1132,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "5.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/127.jpg"
     },
     {
@@ -1015,6 +1141,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "11.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/128.jpg"
     },
     {
@@ -1023,6 +1150,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "13.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/129.jpg"
     },
     {
@@ -1031,6 +1159,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "10.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/130.jpg"
     },
     {
@@ -1039,6 +1168,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "14.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/131.jpg"
     },
     {
@@ -1047,6 +1177,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "13.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/132.jpg"
     },
     {
@@ -1055,6 +1186,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "12.29",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/133.jpg"
     },
     {
@@ -1063,6 +1195,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "11.79",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/134.jpg"
     },
     {
@@ -1071,6 +1204,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "6.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/135.jpg"
     },
     {
@@ -1079,6 +1213,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "12.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/136.jpg"
     },
     {
@@ -1087,6 +1222,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "14.29",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/137.jpg"
     },
     {
@@ -1095,6 +1231,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "7.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/138.jpg"
     },
     {
@@ -1103,6 +1240,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "5.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/139.jpg"
     },
     {
@@ -1111,6 +1249,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "13.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/140.jpg"
     },
     {
@@ -1119,6 +1258,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "15.29",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/141.jpg"
     },
     {
@@ -1127,6 +1267,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "8.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/142.jpg"
     },
     {
@@ -1135,6 +1276,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "12.79",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/143.jpg"
     },
     {
@@ -1143,6 +1285,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "11.29",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/144.jpg"
     },
     {
@@ -1151,6 +1294,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "10.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/145.jpg"
     },
     {
@@ -1159,6 +1303,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "13.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/146.jpg"
     },
     {
@@ -1167,6 +1312,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "14.29",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/147.jpg"
     },
     {
@@ -1175,6 +1321,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "11.79",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/148.jpg"
     },
     {
@@ -1183,6 +1330,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "13.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/149.jpg"
     },
     {
@@ -1191,6 +1339,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "9.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/150.jpg"
     },
     {
@@ -1199,6 +1348,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "14.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/151.jpg"
     },
     {
@@ -1207,6 +1357,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "15.29",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/152.jpg"
     },
     {
@@ -1215,6 +1366,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "13.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/153.jpg"
     },
 
@@ -1224,6 +1376,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "11.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/154.jpg"
     },
     {
@@ -1232,6 +1385,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "12.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/155.jpg"
     },
     {
@@ -1240,6 +1394,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "10.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/156.jpg"
     },
     {
@@ -1248,6 +1403,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "8.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/157.jpg"
     },
     {
@@ -1256,6 +1412,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "13.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/158.jpg"
     },
     {
@@ -1264,6 +1421,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "11.29",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/159.jpg"
     },
     {
@@ -1272,6 +1430,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "14.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/160.jpg"
     },
     {
@@ -1280,6 +1439,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "9.89",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/161.jpg"
     },
     {
@@ -1288,6 +1448,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "11.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/162.jpg"
     },
     {
@@ -1296,6 +1457,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "7.79",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/163.jpg"
     },
     {
@@ -1304,6 +1466,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "15.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/164.jpg"
     },
     {
@@ -1312,6 +1475,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "9.29",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/165.jpg"
     },
     {
@@ -1320,6 +1484,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "12.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/166.jpg"
     },
     {
@@ -1328,6 +1493,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "13.99",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/167.jpg"
     },
     {
@@ -1336,6 +1502,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "14.29",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/168.jpg"
     },
     {
@@ -1344,6 +1511,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "10.89",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/169.jpg"
     },
     {
@@ -1352,6 +1520,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "11.79",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/170.jpg"
     },
     {
@@ -1360,6 +1529,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "12.69",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/171.jpg"
     },
     {
@@ -1368,6 +1538,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "13.19",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/172.jpg"
     },
     {
@@ -1376,6 +1547,7 @@
       "quantity": 1,
       "addedToCart": false,
       "price": "8.49",
+      "totalPrice": 0,
       "image": "https://apipics.s3.amazonaws.com/mexican_api/173.jpg"
     }
   ]

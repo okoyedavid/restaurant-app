@@ -1,41 +1,46 @@
-import { useState } from "react";
+import styles from "../../modules/menu.module.css";
+import { useEffect, useState } from "react";
 import MenuItem from "./menuitem";
 import PaginateButton from "../../pages/paginateButtons";
-import { useLoaderData } from "react-router-dom";
 import { paginate } from "../../utilities/paginate";
+import { useDispatch, useSelector } from "react-redux";
+import { fetchMenu, updateMenu } from "../../store/cartActions";
+import { Link } from "react-router-dom";
 
 const Menu = () => {
-  const data = useLoaderData();
-  const [currentPage, setCurrentPage] = useState(4);
+  const dispatch = useDispatch();
+  const [currentPage, setCurrentPage] = useState(1);
+  const data = useSelector((state) => state.restaurant.menu);
+  const pages = Math.round(data.length / 20);
 
-  // const handleAddToCart = (id) => {
-  //   dispatch(addToCart({ id, description: "add" }));
+  useEffect(() => {
+    if (data.length === 0) {
+      dispatch(fetchMenu());
+    }
+  }, [data.length, dispatch]);
 
-  //   const item = menu.find((item) => item.id === id);
-  //   const updatedItem = { ...item, added: true }; // Clone and modify
-
-  //   updateMenu(id, updatedItem); // Call updateMenu with id and updatedItem
-  // };
-
-  // const handleCartQuantity = (id, value) => {
-  //   dispatch(handleQuantityUpdate({ id, value }));
-  // };
+  const handleAddToCart = (id) => {
+    dispatch(updateMenu(id));
+  };
 
   const paginatedMenu = paginate(data, currentPage);
 
   return (
-    <div>
-      <ul className="menu_section">
+    <div className={styles.menu}>
+      <Link to="/cart">CART</Link>
+      <br />
+      <Link to="/order">ORDER</Link>
+      <ul className={styles.menu_section}>
         {paginatedMenu.map((item) => (
           <MenuItem
-            // handleAddToCart={handleAddToCart}
-            //  handleCartQuantity={handleCartQuantity}
+            handleAddToCart={handleAddToCart}
             menu={item}
             key={item.id}
           />
         ))}
       </ul>
       <PaginateButton
+        numberofPages={pages}
         setCurrentPage={setCurrentPage}
         currentPage={currentPage}
       />
@@ -44,10 +49,3 @@ const Menu = () => {
 };
 
 export default Menu;
-
-export async function loader() {
-  const res = await fetch("http://localhost:8000/menuList");
-  const data = await res.json();
-
-  return data;
-}

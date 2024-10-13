@@ -3,24 +3,19 @@ import Login from "./components/Login";
 import "./App.css";
 import SignUp from "./components/SignUp";
 import { createBrowserRouter } from "react-router-dom";
-import AppLayout from "./pages/AppLayout";
-import Menu, { loader as menuLoader } from "./components/menu/menu";
+import Menu from "./components/menu/menu";
 import Cart from "./components/cart/Cart";
+import Landing from "./components/Landing";
+import Order from "./components/Order/Order";
 
 function App() {
   const router = createBrowserRouter([
-    {
-      element: <AppLayout />,
-      children: [
-        {
-          path: "/signup",
-          element: <SignUp />,
-        },
-        { path: "/login", element: <Login /> },
-        { path: "/menu", element: <Menu />, loader: menuLoader },
-        { path: "/cart", element: <Cart /> },
-      ],
-    },
+    { path: "/signup", element: <SignUp /> },
+    { path: "/login", element: <Login /> },
+    { path: "/menu", element: <Menu /> },
+    { path: "/cart", element: <Cart /> },
+    { path: "/", element: <Landing /> },
+    { path: "/order", element: <Order /> },
   ]);
   return (
     <div className="App">

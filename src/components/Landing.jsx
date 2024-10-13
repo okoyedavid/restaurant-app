@@ -1,37 +1,16 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import { useDispatch } from "react-redux";
-import { loginLink } from "../assets/utils.js/buttons";
-import { childVariants, signup_variant } from "./common/routesAnimation";
-import { motion } from "framer-motion";
-import { updateCart } from "../store/cartActions";
 
 const Landing = () => {
-  const dispatch = useDispatch();
   const navigate = useNavigate();
 
   const handleClick = () => {
-    dispatch(updateCart({ description: "Fill_menu" }));
     navigate("/menu");
   };
 
   return (
     <div className="Landing-page">
-      <motion.div
-        variants={signup_variant}
-        initial="initial"
-        animate="final"
-        className="loginLink"
-      >
-        {loginLink()}
-      </motion.div>
-
-      <motion.div
-        variants={childVariants}
-        initial="initial"
-        animate="final"
-        className="info_container"
-      >
+      <div className="info_container">
         <h1>
           Welcome to <span>Sushi</span> Restaurant
         </h1>
@@ -46,7 +25,7 @@ const Landing = () => {
             Menu
           </button>
         </div>
-      </motion.div>
+      </div>
     </div>
   );
 };

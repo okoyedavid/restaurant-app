@@ -1,30 +1,51 @@
 import React from "react";
 
-const PaginateButton = ({ setCurrentPage, currentPage }) => {
+const PaginateButton = ({ setCurrentPage, currentPage, numberofPages }) => {
+  const pageNumbers = Array.from(
+    { length: numberofPages },
+    (_, index) => index + 1
+  );
+  console.log(currentPage);
+
   return (
     <nav aria-label="Page navigation example">
       <ul className="pagination">
-        <li
-          onClick={() => setCurrentPage(currentPage - 1)}
-          className="page-item"
-        >
-          <a className="page-link" href="#">
+        <li className={`page-item ${currentPage === 1 ? "disabled" : ""}`}>
+          <button
+            className="page-link"
+            onClick={() => setCurrentPage(currentPage - 1)}
+            disabled={currentPage === 1}
+          >
             Previous
-          </a>
-        </li>
-        <li className="page-item">
-          <a className="page-link" href="#">
-            1
-          </a>
+          </button>
         </li>
 
+        {pageNumbers.map((item) => (
+          <li key={item} className={`page-item`}>
+            <button
+              disabled={item === currentPage}
+              onClick={() => setCurrentPage(item)}
+              className={`page-link ${
+                item === currentPage ? "bg-warning text-white" : ""
+              }`}
+            >
+              {item}
+            </button>
+          </li>
+        ))}
+
         <li
-          onClick={() => setCurrentPage(currentPage + 1)}
-          className="page-item"
+          className={`page-item ${
+            currentPage === numberofPages ? "disabled" : ""
+          }`}
         >
-          <a className="page-link" href="#">
+          <button
+            className="page-link"
+            onClick={() => setCurrentPage(currentPage + 1)}
+            disabled={currentPage === numberofPages}
+          >
             Next
-          </a>
+          </button>
         </li>
       </ul>
     </nav>
