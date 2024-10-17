@@ -1,4 +1,4 @@
-import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   menu: [],
@@ -51,15 +51,6 @@ const slice = createSlice({
     },
   },
 });
-
-export const fetchMenu = createAsyncThunk(
-  "restaurant/fetchMenu",
-  async (_, { dispatch }) => {
-    const res = await fetch("http://localhost:8000/menuList");
-    const data = await res.json();
-    dispatch(fillMenu(data));
-  }
-);
 
 export const {
   fillMenu,

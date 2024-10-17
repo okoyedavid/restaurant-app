@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import Button from "../../pages/Button";
+import Button from "../../ui/Button";
 
 function Order() {
   const cart = useSelector((state) => state.restaurant.cart);

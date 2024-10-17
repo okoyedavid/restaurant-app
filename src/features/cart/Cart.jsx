@@ -1,5 +1,5 @@
 import "./cart.css";
-import Button from "../../pages/Button";
+import Button from "../../ui/Button";
 import { useNavigate } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import {

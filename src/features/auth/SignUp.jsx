@@ -1,12 +1,12 @@
 import { useState } from "react";
-import Container from "../pages/Container";
-import Form from "../pages/Form";
-import Label from "../pages/Label";
-import Input from "../pages/Input";
-import Button from "../pages/Button";
+import Form from "../../ui/Form";
+import Input from "../../ui/Input";
+import Label from "../../ui/Label";
+import Button from "../../ui/Button";
+import Container from "../../ui/Container";
 
-function Login() {
-  const [form, setForm] = useState({ email: "", password: "" });
+function SignUp() {
+  const [form, setForm] = useState({ name: "", email: "", password: "" });
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -19,15 +19,23 @@ function Login() {
       [name]: value,
     }));
   };
-
   return (
     <Container>
-      <Form>
-        <Label labelName={"Email address"}>
+      <Form handleSubmit={handleSubmit}>
+        <Label labelName="Full Name">
+          <Input
+            value={form.name}
+            setValue={handleFormUpdate}
+            placeholder="Full name"
+            name="name"
+          />
+        </Label>
+
+        <Label labelName="Email">
           <Input
             value={form.email}
             setValue={handleFormUpdate}
-            placeholder={"input your email addresss"}
+            placeholder="email address"
             name="email"
           />
         </Label>
@@ -50,4 +58,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default SignUp;

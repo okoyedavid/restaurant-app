@@ -5,7 +5,6 @@ const PaginateButton = ({ setCurrentPage, currentPage, numberofPages }) => {
     { length: numberofPages },
     (_, index) => index + 1
   );
-  console.log(currentPage);
 
   return (
     <nav aria-label="Page navigation example">
